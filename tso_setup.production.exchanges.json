@@ -188,7 +188,7 @@
         "last_chance_publish_time_buffer": 10,
         "service_signaler_interval": 25,
         "scheduler_key": "schedule_from_tso_client",
-        "asset_quote_exchange_mappings": "https://ftso.eu-central-1.linodeobjects.com/tso_asset_quote_exchange_mappings.v1.json",
+        "asset_quote_exchange_mappings": "https://raw.githubusercontent.com/khosimorafo/misc/main/tso_asset_quote_exchange_mappings.v1.json?token=GHSAT0AAAAAACD6H6MWRPQ454BCJ2ZMITXCZEKX5UQ",
         "services": {
           "data": {
             "url": "exchanges.cluster.communications.streamer.production.proofs.africa",
