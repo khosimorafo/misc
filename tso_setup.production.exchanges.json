@@ -161,7 +161,7 @@
           "ws://139.84.229.194:9650/ext/bc/C/ws"
         ]
       },
-      "gas_price": 675
+      "gas_price": 1350
     },
     {
       "name": "flare",
