@@ -161,7 +161,7 @@
           "ws://139.84.229.194:9650/ext/bc/C/ws"
         ]
       },
-      "gas_price": 1350
+      "gas_price": 650
     },
     {
       "name": "flare",
@@ -178,7 +178,7 @@
           "wss://flare.proofs.africa/ws"
         ]
       },
-      "gas_price": 60
+      "gas_price": 240
     }
   ],
   "tso": {
