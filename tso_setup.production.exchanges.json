@@ -1,0 +1,240 @@
+{
+  "algorithms": {
+    "hummingbot": {
+      "schedule_source_keys": ["schedule_from_tso_client", "schedule_from_chain_events"],
+      "end_time_execution_buffer": 17,
+      "resources": {
+        "requests": {"memory": "128Mi", "cpu": "0.25"},
+        "limits": {"memory": "256Mi", "cpu": "0.375"}
+      }
+    },
+    "algorithm-results-monitor": {
+      "schedule_source_keys": ["schedule_from_tso_client", "schedule_from_chain_events"],
+      "results_analysis_evaluation_window": 480,
+      "end_time_execution_buffer": 17,
+      "resources": {
+        "requests": {"memory": "128Mi", "cpu": "0.25"},
+        "limits": {"memory": "256Mi", "cpu": "0.375"}
+      }
+    }
+  },
+  "ml": {},
+  "exchanges": {
+    "services": {
+      "data": {
+        "url": "exchanges.cluster.data.streamer.production.proofs.africa",
+        "port": 8001,
+        "name": "exchanges-data-communications-svc",
+        "label": "exchange-data",
+        "resources": {
+          "requests": {"memory": "128Mi", "cpu": "0.25"},
+          "limits": {"memory": "256Mi", "cpu": "0.5"}
+        }
+      },
+      "base-00": {
+        "url": "exchanges.base.streamer.production.proofs.world",
+        "port": 9000,
+        "name": "exchanges-base-asset-epoch-data-interface-00-svc",
+        "label": "exchanges-base-asset-epoch-data-interface-00-api",
+        "resources": {
+          "requests": {"memory": "128Mi", "cpu": "0.25"},
+          "limits": {"memory": "256Mi", "cpu": "0.5"}
+        }
+      },
+      "rates": {
+        "url": "exchanges.conversions.streamer.production.proofs.world",
+        "port": 8002,
+        "name": "exchanges-conversions-rates-api-svc",
+        "label": "exchange-conversions-rates-api",
+        "resources": {
+          "requests": {"memory": "64Mi", "cpu": "0.05"},
+          "limits": {"memory": "128Mi", "cpu": "0.1"}
+        }
+      }
+    },
+    "venues": [
+      {
+        "name": "ascend_ex",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "binance",
+        "resources": {"requests": {"memory": "5000Mi", "cpu": "2"},  "limits": {"memory": "5000Mi", "cpu": "2"}}
+      },
+      {
+        "name": "binance.us",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "bitfinex",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "bitmart",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "bittrex",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "btc_markets",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "bybit",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "coinbase_pro",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "crypto_com",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "gate_io",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "hitbtc",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "huobi",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "kraken",
+        "resources": {"requests": {"memory": "5000Mi", "cpu": "1.5"},  "limits": {"memory": "5000Mi", "cpu": "1.5"}}
+      },
+      {
+        "name": "kucoin",
+        "resources": {"requests": {"memory": "2000Mi", "cpu": "1"},  "limits":{"memory": "2000Mi", "cpu": "1"}}
+      },
+      {
+        "name": "lbank",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "mexc",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "okx",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "probit",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      },
+      {
+        "name": "whitebit",
+        "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
+      }
+    ],
+    "tracked_assets": ["ADA", "ALGO", "BCH", "BTC", "DGB", "DOGE", "ETH", "FIL", "FLR", "LTC", "SGB", "XLM", "XRP"],
+    "tracked_quotes": ["USD", "USDT", "USDC", "BUSD", "EUR", "GBP", "NGN", "BRL", "BTC", "ETH", "XRP"],
+    "exchanges-trades-connector-v2": {
+      "schedule_source_keys": ["schedule_from_tso_client", "schedule_from_chain_events"]
+    },
+    "algorithm-model-performance-manager": {
+      "schedule_source_keys": ["schedule_from_tso_client", "schedule_from_chain_events"]
+    }
+  },
+  "chains": [
+    {
+      "name": "songbird",
+      "chain_id":19,
+      "status": "active",
+      "price_provider_address": "0x",
+      "price_submitter_address": "0x1000000000000000000000000000000000000003",
+      "wrapped_songbird_address": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED",
+      "providers": {
+        "rpc": [
+          "https://songbird-api.flare.network/ext/C/rpc",
+          "http://139.84.229.194:9650/ext/bc/C/rpc"
+        ],
+        "ws": [
+          "wss://songbird-api.flare.network/ext/C/ws",
+          "ws://139.84.229.194:9650/ext/bc/C/ws"
+        ]
+      },
+      "gas_price": 675
+    },
+    {
+      "name": "flare",
+      "chain_id":14,
+      "status": "active",
+      "price_provider_address": "0x",
+      "price_submitter_address": "0x1000000000000000000000000000000000000003",
+      "wrapped_flare_address": "0x",
+      "providers": {
+        "rpc": [
+          "https://flare.proofs.africa/rpc"
+        ],
+        "ws": [
+          "wss://flare.proofs.africa/ws"
+        ]
+      },
+      "gas_price": 60
+    }
+  ],
+  "tso": {
+        "setup_url": "exchanges.cluster.setup.proofs.africa",
+        "submit_time_buffer": 22,
+        "reveal_time_buffer": 2,
+        "last_chance_publish_time_buffer": 10,
+        "service_signaler_interval": 25,
+        "scheduler_key": "schedule_from_tso_client",
+        "asset_quote_exchange_mappings": "https://ftso.eu-central-1.linodeobjects.com/tso_asset_quote_exchange_mappings.v1.json",
+        "services": {
+          "data": {
+            "url": "exchanges.cluster.communications.streamer.production.proofs.africa",
+            "port": 10000,
+            "name": "exchanges-cluster-communications-streamer-svc",
+            "label": "exchanges-cluster-communications",
+            "resources": {
+              "requests": {"memory": "512Mi", "cpu": "0.5"},
+              "limits": {"memory": "768Mi", "cpu": "0.75"}
+            }
+          },
+          "chains": {
+            "songbird": "utilities.communications.production.songbird.proofs.africa",
+            "flare": "utilities.communications.production.flare.proofs.africa"
+          }
+        }
+  },
+  "third_party_services": {
+    "twilio": {
+      "twilio_account_sid": "AC20cb4aa2ab19e03814b873870dedc3b6",
+      "twilio_auth_token": "cca1efc32f2169262915df0d09e54587",
+      "twilio_number": "+12182428664",
+      "notify_number": "+27823414062"
+    },
+    "telegram": {}
+  },
+  "environments": {
+    "databases": {
+          "production": {
+            "name": "production",
+            "protocol": "postgresql+psycopg2",
+            "username": "vultradmin",
+            "password": "AVNS_5LeS8T_rqSrRGf96D0T",
+            "host": "vultr-prod-673444ff-205d-4ea2-a00b-0668c0ddadef-vultr-prod-fd9a.vultrdb.com",
+            "port": "16751",
+            "sslmode": "require"
+          },
+          "staging": {
+            "name": "tsostaging",
+            "protocol": "postgresql+psycopg2",
+            "username": "deployer",
+            "password": "MVVfoEFXC6wu0eJB",
+            "host": "db-postgresql-fra1-13252-do-user-9907169-0.b.db.ondigitalocean.com",
+            "port": "25060",
+            "sslmode": "require"
+          }
+        }
+  }
+}
