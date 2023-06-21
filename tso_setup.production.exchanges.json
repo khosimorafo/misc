@@ -134,8 +134,8 @@
         "resources": {"requests": {"memory": "768Mi", "cpu": "0.55"},  "limits": {"memory": "768Mi", "cpu": "0.55"}}
       }
     ],
-    "tracked_assets": ["ADA", "ALGO", "BCH", "BTC", "DGB", "DOGE", "ETH", "FIL", "FLR", "LTC", "SGB", "XLM", "XRP"],
-    "tracked_quotes": ["USD", "USDT", "USDC", "BUSD", "EUR", "GBP", "NGN", "BRL", "BTC", "ETH", "XRP"],
+    "tracked_assets": ["ADA", "ALGO", "BCH", "BTC", "DGB", "DOGE", "ETH", "FIL", "FLR", "LTC", "SGB", "XLM", "XRP", "ARB", "AVAX", "BNB", "MATIC", "SOL", "USDC", "XDC", "USDT"],
+    "tracked_quotes": ["USD", "USDT", "USDC", "BUSD", "BTC", "ETH"],
     "exchanges-trades-connector-v2": {
       "schedule_source_keys": ["schedule_from_tso_client", "schedule_from_chain_events"]
     },
