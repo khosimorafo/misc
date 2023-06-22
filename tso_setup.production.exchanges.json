@@ -153,12 +153,10 @@
       "wrapped_songbird_address": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED",
       "providers": {
         "rpc": [
-          "https://songbird-api.flare.network/ext/C/rpc",
-          "http://139.84.229.194:9650/ext/bc/C/rpc"
+          "https://songbird-api.flare.network/ext/C/rpc"
         ],
         "ws": [
-          "wss://songbird-api.flare.network/ext/C/ws",
-          "ws://139.84.229.194:9650/ext/bc/C/ws"
+          "wss://songbird-api.flare.network/ext/C/ws"
         ]
       },
       "gas_price": 650
