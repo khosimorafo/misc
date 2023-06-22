@@ -103,6 +103,70 @@
             "kraken": ["USD"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "binanceus": [], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USDT"], "bybit": ["USDT"], "probit": ["USDT"]
           }
+        },
+        "ARB":
+        {
+          "exchanges": {
+            "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": [], "cryptocom": ["USD"],
+            "gateio": [], "bitfinex": ["USD"], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": []
+          }
+        },
+        "AVAX":
+        {
+          "exchanges": {
+            "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDT", "USDC"], "binanceus": [], "cryptocom": ["USD"],
+            "gateio": [], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDC"], "probit": []
+          }
+        },
+        "BNB":
+        {
+          "exchanges": {
+            "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": [], "ascendex": ["USD"],
+            "kraken": [], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": [],
+            "gateio": ["USD"], "bitfinex": [], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": ["USDT"]
+          }
+        },
+        "MATIC":
+        {
+          "exchanges": {
+            "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"], "whitebit": ["USD"],
+            "gateio": ["USD"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
+          }
+        },
+        "SOL":
+        {
+          "exchanges": {
+            "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"], "whitebit": ["USD"],
+            "gateio": ["USD"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
+          }
+        },
+        "USDC":
+        {
+          "exchanges": {
+            "binance":  [], "huobi": ["USDT"], "coinbasepro": [],
+            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": [], "cryptocom": [],
+            "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDT"], "probit": ["USDT"]
+          }
+        },
+        "XDC":
+        {
+          "exchanges": {
+            "binance":  [], "huobi": ["USDT"], "coinbasepro": [],
+            "kraken": [], "kucoin": ["USDT"], "okx": [], "binanceus": [], "cryptocom": [],
+            "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USDT"], "bybit": ["USDT"], "probit": ["USDT"]
+          }
+        },
+        "USDT":
+        {
+          "exchanges": {
+            "binance":  [], "huobi": [], "coinbasepro": ["USD", "USDC"], "ascendex": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"],
+            "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "whitebit": ["USD"]
+          }
         }
       }
 }
