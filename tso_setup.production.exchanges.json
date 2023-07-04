@@ -63,7 +63,7 @@
       },
       {
         "name": "binance.us",
-        "resources": {"requests": {"memory": "1000Mi", "cpu": "0.75"},  "limits": {"memory": "1000Mi", "cpu": "0.75"}}
+        "resources": {"requests": {"memory": "1001Mi", "cpu": "0.7501"},  "limits": {"memory": "1001Mi", "cpu": "0.7501"}}
       },
       {
         "name": "bitfinex",
@@ -95,7 +95,7 @@
       },
       {
         "name": "gate_io",
-        "resources": {"requests": {"memory": "1000Mi", "cpu": "0.75"},  "limits": {"memory": "1000Mi", "cpu": "0.75"}}
+        "resources": {"requests": {"memory": "1001Mi", "cpu": "0.75"},  "limits": {"memory": "1001Mi", "cpu": "0.75"}}
       },
       {
         "name": "hitbtc",
