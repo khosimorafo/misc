@@ -108,7 +108,7 @@
         {
           "exchanges": {
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
-            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": [], "cryptocom": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": []
           }
         },
@@ -116,7 +116,7 @@
         {
           "exchanges": {
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
-            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDT", "USDC"], "binanceus": [], "cryptocom": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDT", "USDC"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDC"], "probit": []
           }
         },
@@ -124,7 +124,7 @@
         {
           "exchanges": {
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": [], "ascendex": ["USD"],
-            "kraken": [], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": [],
+            "kraken": [], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": ["USDT"]
           }
         },
@@ -132,7 +132,7 @@
         {
           "exchanges": {
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
-            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"], "whitebit": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"], "whitebit": ["USD"],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
           }
         },
@@ -140,7 +140,7 @@
         {
           "exchanges": {
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
-            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"], "whitebit": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"], "whitebit": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
           }
         },
@@ -148,7 +148,7 @@
         {
           "exchanges": {
             "binance":  [], "huobi": ["USDT"], "coinbasepro": [],
-            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": [], "cryptocom": [],
+            "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": ["USD"], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDT"], "probit": ["USDT"]
           }
         },
@@ -164,7 +164,7 @@
         {
           "exchanges": {
             "binance":  [], "huobi": [], "coinbasepro": ["USD", "USDC"], "ascendex": ["USD"],
-            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": [], "cryptocom": ["USD"],
+            "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": [], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "whitebit": ["USD"]
           }
         }
