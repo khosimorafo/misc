@@ -176,7 +176,7 @@
           "wss://flare.proofs.africa/ws"
         ]
       },
-      "gas_price": 650
+      "gas_price": 1300
     }
   ],
   "tso": {
