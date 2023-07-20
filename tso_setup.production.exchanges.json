@@ -177,6 +177,23 @@
         ]
       },
       "gas_price": 1300
+    },
+    {
+      "name": "coston2",
+      "chain_id":14,
+      "status": "active",
+      "price_provider_address": "0x",
+      "price_submitter_address": "0x1000000000000000000000000000000000000003",
+      "wrapped_flare_address": "0x",
+      "providers": {
+        "rpc": [
+          "https://coston2-api.flare.network/ext/C/rpc"
+        ],
+        "ws": [
+          "wss://coston2-api.flare.network/ext/C/ws"
+        ]
+      },
+      "gas_price": 1300
     }
   ],
   "tso": {
