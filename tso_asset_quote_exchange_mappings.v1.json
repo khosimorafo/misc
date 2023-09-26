@@ -6,7 +6,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD", "USDT"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "bybit": ["USDC", "USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USDT"], "bitfinex": ["USD","USDT"], "bitstamp": [], "bittrex": ["USD", "USDC", "USDT"]
-         }
+         },
+          "port": 11000
         },
         "ALGO":
         {
@@ -14,7 +15,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "bybit": ["USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USDT"], "hitbtc": ["USDC","USDT"], "probit": ["USDT"], "bittrex": ["USD", "USDT"]
-          }
+          },
+          "port": 11001
         },
         "BCH":
         {
@@ -22,7 +24,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT", "USDC"], "coinbasepro": ["USD"], "hitbtc": ["USDC", "USDT"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDC","USDT"], "okx": ["USDC", "USDT"], "bybit": ["USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "probit": ["USDT"], "ascendex": ["USDT"], "bittrex": ["USD", "USDT"]
-          }
+          },
+          "port": 11002
         },
         "BTC":
         {
@@ -30,7 +33,8 @@
             "binance":  ["USDT", "BUSD", "USDC"], "huobi": ["USDT", "USDC"], "coinbasepro": ["USD"], "bybit": ["USDC","USDT"],
             "kraken": ["USD", "USDC"], "kucoin": ["USDC","USDT"], "okx": ["USDT", "USDC"], "binanceus": ["USD", "USDC"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "bitfinex": ["USD","USDT"], "bitstamp": [], "bittrex": ["USD"]
-          }
+          },
+          "port": 11003
         },
         "DGB":
         {
@@ -38,7 +42,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": [], "coinbasepro": [], "hitbtc": "USDC",
             "kraken": [], "kucoin": ["USDT"], "okx": ["USDT"], "bybit": ["USDT"], "cryptocom": ["USD"],
             "gateio": [], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD", "USDT"], "probit": ["USDT"]
-          }
+          },
+          "port": 11004
         },
         "DOGE":
         {
@@ -46,7 +51,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDC","USDT"], "okx": ["USDC", "USDT"], "bybit": ["USD", "USDC"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USD", "USDC", "USDT"]
-          }
+          },
+          "port": 11005
         },
         "ETH":
         {
@@ -54,7 +60,8 @@
             "binance":  ["USDT", "BUSD", "USDC"], "huobi": ["USDT", "USDC"], "coinbasepro": ["USD", "USDT"],
             "kraken": ["USD", "USDC"], "kucoin": ["USDC","USDT"], "okx": ["USDT", "USDC"], "binanceus": ["USD", "USDC"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "bitfinex": ["USDT"], "bitstamp": [], "bittrex": ["USD"]
-          }
+          },
+          "port": 11006
         },
         "FIL":
         {
@@ -62,7 +69,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDT"], "okx": ["USDT", "USDC"], "bybit": ["USDC", "USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USD", "USDT"]
-          }
+          },
+          "port": 11007
         },
         "LTC":
         {
@@ -70,7 +78,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD", "USDT"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "bybit": ["USDC", "USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "bitfinex": ["USD","USDT"], "bitstamp": [], "bittrex": ["USD", "USDT"]
-          }
+          },
+          "port": 11008
         },
         "XLM":
         {
@@ -78,7 +87,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD", "USDT"],
             "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT", "USDC"], "hitbtc": ["USDC", "USDT"], "cryptocom": ["USD", "USDT"],
             "gateio": ["USDT"], "bitfinex": ["USD","USDT"], "bitstamp": [], "bittrex": ["USD","USDT"]
-          }
+          },
+          "port": 11009
         },
         "XRP":
         {
@@ -86,7 +96,8 @@
             "binance":  ["USDT", "BUSD"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD", "USDC", "USDT"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "binanceus": [], "cryptocom": ["USD", "USDT"],
             "gateio": ["USD","USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USD", "USDC","USDT"]
-          }
+          },
+          "port": 11010
         },
         "SGB":
         {
@@ -94,7 +105,8 @@
             "binance":  [], "huobi": [], "coinbasepro": [], "mexc": ["USDT"],
             "kraken": ["USD"], "kucoin": [], "okx": [], "binanceus": [], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": []
-          }
+          },
+          "port": 11011
         },
         "FLR":
         {
@@ -102,7 +114,8 @@
             "binance":  [], "huobi": ["USDT"], "coinbasepro": ["USD"], "mexc": "USDT",
             "kraken": ["USD"], "kucoin": ["USDT", "USDC"], "okx": ["USDT", "USDC"], "binanceus": [], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USDT"], "bybit": ["USDT"], "probit": ["USDT"]
-          }
+          },
+          "port": 11012
         },
         "ARB":
         {
@@ -110,7 +123,8 @@
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": []
-          }
+          },
+          "port": 11013
         },
         "AVAX":
         {
@@ -118,7 +132,8 @@
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"],
             "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDT", "USDC"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDC"], "probit": []
-          }
+          },
+          "port": 11014
         },
         "BNB":
         {
@@ -126,7 +141,8 @@
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": [], "ascendex": ["USD"],
             "kraken": [], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": [], "bybit": ["USDT"], "probit": ["USDT"]
-          }
+          },
+          "port": 11015
         },
         "MATIC":
         {
@@ -134,7 +150,8 @@
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
             "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"], "whitebit": ["USD"],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
-          }
+          },
+          "port": 11016
         },
         "SOL":
         {
@@ -142,7 +159,8 @@
             "binance":  ["USDT"], "huobi": ["USDT"], "coinbasepro": ["USD"], "ascendex": ["USD"],
             "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"], "whitebit": ["USD"],
             "gateio": ["USDT"], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "probit": []
-          }
+          },
+          "port": 11017
         },
         "USDC":
         {
@@ -150,7 +168,8 @@
             "binance":  [], "huobi": ["USDT"], "coinbasepro": [],
             "kraken": ["USD"], "kucoin": ["USDT"], "okx": ["USDT"], "binanceus": ["USD"], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": [], "bitstamp": [], "bittrex": ["USD"], "bybit": ["USDT"], "probit": ["USDT"]
-          }
+          },
+          "port": 11018
         },
         "XDC":
         {
@@ -158,7 +177,8 @@
             "binance":  [], "huobi": ["USDT"], "coinbasepro": [],
             "kraken": [], "kucoin": ["USDT"], "okx": [], "binanceus": [], "cryptocom": [],
             "gateio": ["USDT"], "bitfinex": ["USD", "USDT"], "bitstamp": [], "bittrex": ["USDT"], "bybit": ["USDT"], "probit": ["USDT"]
-          }
+          },
+          "port": 11019
         },
         "USDT":
         {
@@ -166,7 +186,8 @@
             "binance":  [], "huobi": [], "coinbasepro": ["USD", "USDC"], "ascendex": ["USD"],
             "kraken": ["USD"], "kucoin": ["USDC"], "okx": ["USDC"], "binanceus": ["USD"], "cryptocom": ["USD"],
             "gateio": [], "bitfinex": ["USD"], "bitstamp": [], "bittrex": ["USD"], "bybit": [], "whitebit": ["USD"]
-          }
+          },
+          "port": 11020
         }
       }
 }
