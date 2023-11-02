@@ -65,7 +65,7 @@
       },
       {
         "name": "binance",
-        "resources": {"requests": {"memory": "1024Mi", "cpu": "1"},  "limits": {"memory": "1024Mi", "cpu": "1"}}
+        "resources": {"requests": {"memory": "1024Mi", "cpu": "0.75"},  "limits": {"memory": "1024Mi", "cpu": "0.75"}}
       },
       {
         "name": "binance.us",
