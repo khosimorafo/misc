@@ -89,7 +89,7 @@
       },
       {
         "name": "bybit",
-        "resources": {"requests": {"memory": "384Mi", "cpu": "0.35"},  "limits": {"memory": "384Mi", "cpu": "0.35"}}
+        "resources": {"requests": {"memory": "1024Mi", "cpu": "0.5"},  "limits": {"memory": "1024Mi", "cpu": "0.5"}}
       },
       {
         "name": "coinbase_pro",
