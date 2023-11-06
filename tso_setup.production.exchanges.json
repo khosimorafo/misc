@@ -85,7 +85,7 @@
       },
       {
         "name": "btc_markets",
-        "resources": {"requests": {"memory": "192Mi", "cpu": "0.2"},  "limits": {"memory": "192Mi", "cpu": "0.2"}}
+        "resources": {"requests": {"memory": "192Mi", "cpu": "0.21"},  "limits": {"memory": "192Mi", "cpu": "0.21"}}
       },
       {
         "name": "bybit",
