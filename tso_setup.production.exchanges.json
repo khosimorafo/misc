@@ -199,10 +199,10 @@
       "wrapped_flare_address": "0x",
       "providers": {
         "rpc": [
-          "http://136.244.89.137:9650/ext/C/rpc"
+          "https://flare-api.flare.network/ext/C/rpc"
         ],
         "ws": [
-          "ws://136.244.89.137:9650/ext/C/ws"
+          "wss://flare-api.flare.network/ext/C/ws"
         ]
       },
       "gas_price": 1300,
