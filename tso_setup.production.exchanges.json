@@ -2,7 +2,7 @@
   "algorithms": {
     "services": {
       "exchanges-trading-events-interface": {
-        "url": "gke.production.trading.events.interface.komokun.org",
+        "url": "gke1.production.trading.events.interface.komokun.org",
         "port": 8000,
         "name": "exchanges-trading-events-interface-svc",
         "label": "exchanges-trading-events-interface",
@@ -33,7 +33,7 @@
   "exchanges": {
     "services": {
       "data": {
-        "url": "gke.production.cluster.data.streamer.komokun.org",
+        "url": "gke1.production.cluster.data.streamer.komokun.org",
         "port": 10000,
         "name": "exchanges-data-to-tso-multiplexer-svc",
         "label": "exchanges-data-to-tso-multiplexer",
@@ -43,12 +43,12 @@
         }
       },
       "asset_trading_data": {
-        "url": "gke.production.cluster.asset.data.streamer.komokun.org",
+        "url": "gke1.production.cluster.asset.data.streamer.komokun.org",
         "name": "exchanges-data-to-tso-multiplexer-svc",
         "label": "exchanges-data-to-tso-multiplexer"
       },
       "rates": {
-        "url": "gke.production.conversions.streamer.komokun.org",
+        "url": "gke1.production.conversions.streamer.komokun.org",
         "port": 8002,
         "name": "exchanges-conversions-rates-api-svc",
         "label": "exchange-conversions-rates-api",
@@ -210,7 +210,7 @@
     }
   ],
   "tso": {
-        "setup_url": "gke.production.cluster.setup.komokun.org",
+        "setup_url": "gke1.production.cluster.setup.komokun.org",
         "submit_time_buffer": 22,
         "reveal_time_buffer": 4,
         "last_chance_publish_time_buffer": 8,
@@ -219,7 +219,7 @@
         "asset_quote_exchange_mappings": "https://raw.githubusercontent.com/khosimorafo/misc/main/tso_asset_quote_exchange_mappings.v1.json",
         "services": {
           "data": {
-            "url": "gke.production.cluster.communications.streamer.komokun.org",
+            "url": "gke1.production.cluster.communications.streamer.komokun.org",
             "port": 10000,
             "name": "exchanges-cluster-communications-streamer-svc",
             "label": "exchanges-cluster-communications",
@@ -229,8 +229,8 @@
             }
           },
           "chains": {
-            "songbird": "gke.production.utilities.communications.songbird.komokun.org",
-            "flare": "gke.production.utilities.communications.flare.komokun.org"
+            "songbird": "gke1.production.utilities.communications.songbird.komokun.org",
+            "flare": "gke1.production.utilities.communications.flare.komokun.org"
           }
         }
   },
