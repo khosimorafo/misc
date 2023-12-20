@@ -213,7 +213,7 @@
         "setup_url": "gke1.production.cluster.setup.komokun.org",
         "submit_time_buffer": 22,
         "reveal_time_buffer": 4,
-        "last_chance_publish_time_buffer": 8,
+        "last_chance_publish_time_buffer": 5,
         "service_signaler_interval": 25,
         "scheduler_key": "schedule_from_tso_client",
         "asset_quote_exchange_mappings": "https://raw.githubusercontent.com/khosimorafo/misc/main/tso_asset_quote_exchange_mappings.v1.json",
