@@ -211,7 +211,7 @@
   ],
   "tso": {
         "setup_url": "gke1.production.cluster.setup.komokun.org",
-        "submit_time_buffer": 22,
+        "submit_time_buffer": 20,
         "reveal_time_buffer": 4,
         "last_chance_publish_time_buffer": 5,
         "service_signaler_interval": 25,
